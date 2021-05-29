@@ -106,7 +106,7 @@ app.post('/', async (req: Request<{}, {}, APIInteraction>, res: Response) => {
 
   if (i.type === InteractionType.ApplicationCommand && i.data) {
     switch (i.data.name) {
-      case 'test': {
+      case 'roles': {
         const h = {
           type: InteractionResponseType.ChannelMessageWithSource,
           data: {

@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "gts lint",
     "clean": "gts clean",
-    "compile": "tsc",
+    "build": "tsc",
     "fmt": "gts fix",
     "prepare": "yarn run compile",
     "pretest": "yarn run compile",
